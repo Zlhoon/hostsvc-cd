@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        image: kajh7570/node-app:1.0
+        images: kajh7570/node-app:74ce07f9cf6ccaa23426dbfcca75056b8f76da97
         resources:
           limits:
             memory: "128Mi"
